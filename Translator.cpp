@@ -22,6 +22,11 @@ void translate(vector<string> s)
                 cout << spa << " ";
                 break;
             }
+            if(spa == s[i])
+            {
+                cout << eng << " ";
+                break;
+            }
         }
     }
     
