@@ -6,27 +6,28 @@ using namespace std;
 
 void translate(vector<string> s)
 {
+    vector<string> t;
     fstream f;
     f.open("dictionary.txt");
     string word;
-    string eng, spa;
+    string eng, spa, spa2;
     
     for(int i=0; i<s.size(); i++)
     {
         while(getline(f,word))
         {
             stringstream w(word);
-            w >> eng >> spa;
+            w >> eng >> spa >> spa2;
             if(eng == s[i])
             {
-                cout << spa << " ";
+                t.push_back(spa);
                 f.clear();
                 f.seekg(0);
                 break;
             }
             if(spa == s[i])
             {
-                cout << eng << " ";
+                t.push_back(eng);
                 f.clear();
                 f.seekg(0);
                 break;
@@ -35,9 +36,11 @@ void translate(vector<string> s)
         f.clear();
         f.seekg(0);
     }
-    
     f.close();
-    
+    for(int i=0; i<t.size(); i++)
+    {
+        cout<<t[i]<<" ";
+    }
 }
 
 int main()
