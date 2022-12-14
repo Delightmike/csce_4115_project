@@ -1,10 +1,15 @@
+all todos
 am soy
 are son
 bathroom bano
+beef carne
 but pero
+chicken pollo
+eat comer
+english ingles
 directions direcciones
 do hacer
-dog perro perra
+dog perra perro
 food comida
 he el
 hello hola
@@ -19,19 +24,22 @@ just solo
 milk leche
 police policia
 she ella
+spanish espanol
+speak hablar
 stop para
 store tienda
-that ese esa
-the el la
-them ellos ellas
+talk hablar
+that esa ese
+the la el
+them ellas ellos
 time tiempo
 understand compreder
 want quiero
-we nosotros nosotras
-welcome bienvenidos bienvenids
+we nosotras nosotros
+welcome bienvenidas bienvenidos
 what que
 when cuando
 where donde
 who quien
 why porque
-you eres
+you tu
