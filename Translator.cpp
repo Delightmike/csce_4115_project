@@ -20,14 +20,20 @@ void translate(vector<string> s)
             if(eng == s[i])
             {
                 cout << spa << " ";
+                f.clear();
+                f.seekg(0);
                 break;
             }
             if(spa == s[i])
             {
                 cout << eng << " ";
+                f.clear();
+                f.seekg(0);
                 break;
             }
         }
+        f.clear();
+        f.seekg(0);
     }
     
     f.close();
